@@ -8,7 +8,7 @@ on:
   schedule:
      - cron: '6 1-12/2 * * *'
   watch:
-    types: started
+    types: Youth_Read
 jobs:
   build:
     runs-on: ubuntu-latest

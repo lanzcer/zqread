@@ -27,5 +27,13 @@ https:\/\/ios\.baertt\.com\/v5\/article\/red_packet url script-request-body http
 # 中青看点极速版
 https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json url script-request-body https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js
 
-主机名：*.
+主机名：*.youth.cn, ios.baertt.com
+
+[task_local]
+# 中青看点极速版
+0 0/14 5-14 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
+
+# 中青看点极速版自动阅读
+0 0 0-10/1 * * * https://cdn.jsdelivr.net/gh/songyangzz/QuantumultX@master/YOUTH_READ.js, tag=中青看点极速版自动阅读, img-url=https://raw.githubusercontent.com/Orz-3/task/master/youth.png, enabled=true
+
 ~~~

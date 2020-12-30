@@ -1,3 +1,5 @@
+可以就填下我的邀请码：51767260
+
 # actions-youth
 - https://github.com/Sunert/Scripts
 - 中青看点极速版本

@@ -15,7 +15,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
     env:
       YOUTH_START: ${{ secrets.YOUTH_START }}
-      YOUTH_END: ${{ secrets.YOUTH_END }}
+      YOUTH_END: ${{ secrets.YOUTH_LOOK }}
     steps:
       - uses: actions/checkout@v1
       - name: Use Node.js 12.x

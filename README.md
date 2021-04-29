@@ -46,7 +46,8 @@ Surge 4.0 :
 中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/complete,script-path=https://raw.githubusercontent.com/akuticlouds/actions-youth/main/youth.js, requires-body=true
 中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/article\/red_packet,script-pathhttps://raw.githubusercontent.com/akuticlouds/actions-youth/main/youth.js, requires-body=true
 中青看点 = type=http-request,pattern=https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json,script-pathhttps://raw.githubusercontent.com/akuticlouds/actions-youth/main/youth.js, requires-body=true
-~~~~~~~~~~~~~~~~
+
+
 Loon 2.1.0+
 [Script]
 # 本地脚本
@@ -59,6 +60,6 @@ http-request https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json script-path=ht
 
 [MITM]
 hostname = *.youth.cn, ios.baertt.com 
-~~~~~~~~~~~~~~~~
 
 
+~~~

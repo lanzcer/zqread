@@ -2,7 +2,7 @@
 
 # actions-youth
 - 中青看点极速版本
-- Task/..
+- 也可以node或githubaction运行
 
 ~~~
 2. 获取Cookie方法，可随时更新
